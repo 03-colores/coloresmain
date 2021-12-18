@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,7 @@
       <workItem from="1639586161504" duration="634000" />
       <workItem from="1639588251915" duration="1465000" />
       <workItem from="1639766210768" duration="72000" />
+      <workItem from="1639766789524" duration="3040000" />
     </task>
     <servers />
   </component>
