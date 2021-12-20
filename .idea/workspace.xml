@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Imp_listView-Colores/03-colores" />
   </component>
   <component name="RunManager">
     <configuration name="JavaFX-Colores" type="Application" factoryName="Application">
@@ -53,7 +51,9 @@
       <workItem from="1639588251915" duration="1465000" />
       <workItem from="1639766210768" duration="72000" />
       <workItem from="1639766789524" duration="3040000" />
-      <workItem from="1639829892971" duration="847000" />
+      <workItem from="1639829892971" duration="1444000" />
+      <workItem from="1640001065939" duration="33000" />
+      <workItem from="1640006696011" duration="1156000" />
     </task>
     <servers />
   </component>
