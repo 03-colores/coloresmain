@@ -5,15 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/modelo/Colores.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,11 +69,28 @@
       <workItem from="1639766789524" duration="3040000" />
       <workItem from="1639829892971" duration="1444000" />
       <workItem from="1640001065939" duration="33000" />
-      <workItem from="1640006696011" duration="1156000" />
+      <workItem from="1640006696011" duration="1894000" />
+      <workItem from="1640013709133" duration="29000" />
+      <workItem from="1640014254576" duration="324000" />
+      <workItem from="1640014869049" duration="12000" />
+      <workItem from="1640025085739" duration="2477000" />
+      <workItem from="1640027714500" duration="1437000" />
+      <workItem from="1640037023658" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
