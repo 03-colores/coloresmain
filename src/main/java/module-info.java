@@ -10,4 +10,6 @@ module org.tk3dv.colores {
 
     opens org.tk3dv.colores to javafx.fxml;
     exports org.tk3dv.colores;
+    exports org.tk3dv.colores.modelo;
+    opens org.tk3dv.colores.modelo to javafx.fxml;
 }

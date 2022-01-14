@@ -1,11 +1,16 @@
 package org.tk3dv.colores;
 
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
+import org.tk3dv.colores.modelo.Colores;
+import javafx.event.ActionEvent;
+
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -18,7 +23,11 @@ public class Controller implements Initializable {
     @FXML
     private Label lbRojo, lbVerde, lbAzul;
 
+    @FXML
+    private ListView<Colores> lvColores;
+
     int valor;
+    ObservableList<Colores> lista = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -43,5 +52,17 @@ public class Controller implements Initializable {
 
 
 
+
+
+    }
+
+    public void addValores(ActionEvent event) {
+
+        Colores colores = new Colores(Integer.parseInt(lbRojo.getText()),
+                Integer.parseInt(lbVerde.getText()),
+                Integer.parseInt(lbAzul.getText())
+        );
+        lista.add(colores);
+        lvColores.setItems(lista);
     }
 }
