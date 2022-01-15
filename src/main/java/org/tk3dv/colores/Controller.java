@@ -5,6 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
@@ -28,6 +29,9 @@ public class Controller implements Initializable {
 
     @FXML
     private Rectangle rectangulo;
+
+    @FXML
+    private Button btnEliminar;
 
     int valorRojo,valorAzul,valorVerde;
     ObservableList<Colores>lista = FXCollections.observableArrayList();
@@ -60,6 +64,8 @@ public class Controller implements Initializable {
 
         });
 
+        btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());
+
     }
 
 
@@ -76,4 +82,16 @@ public class Controller implements Initializable {
 
 
     }
-}
+
+    @FXML
+    void deleteValores(ActionEvent event) {
+
+        if(lvColores.getSelectionModel().getSelectedItems() != null){
+            lista.remove(lvColores.getSelectionModel().getSelectedItems());
+        }
+
+    }
+
+
+
+    }
