@@ -8,6 +8,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
+import javafx.scene.shape.Rectangle;
 import org.tk3dv.colores.modelo.Colores;
 import java.net.URL;
 import java.util.Iterator;
@@ -24,29 +27,40 @@ public class Controller implements Initializable {
     @FXML
     private ListView<Colores> lvColores;
 
-    int valor;
+    @FXML
+    private Rectangle rectangulo;
+
+    int valorRojo, valorVerde, valorAzul;
     ObservableList<Colores>lista = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
-            valor=(int)sliderRojo.getValue();
-            lbRojo.setText(Integer.toString(valor));
+            valorRojo = (int) sliderRojo.getValue();
+            lbRojo.setText(Integer.toString(valorRojo));
+
 
         });
 
         sliderVerde.valueProperty().addListener((observableValue, number, t1) -> {
-            valor=(int)sliderVerde.getValue();
-            lbVerde.setText(Integer.toString(valor));
+            valorVerde=(int)sliderVerde.getValue();
+            lbVerde.setText(Integer.toString(valorVerde));
+
 
         });
 
         sliderAzul.valueProperty().addListener((observableValue, number, t1) -> {
-            valor=(int)sliderAzul.getValue();
-            lbAzul.setText(Integer.toString(valor));
-
+            valorAzul=(int)sliderAzul.getValue();
+            lbAzul.setText(Integer.toString(valorAzul));
         });
+
+
+
+
+
+
+
 
     }
 
