@@ -56,13 +56,5 @@ public class Controller implements Initializable {
         });
     }
 
-    public void addValores(ActionEvent event) {
 
-        Colores colores = new Colores(Integer.parseInt(lbRojo.getText()),
-                Integer.parseInt(lbVerde.getText()),
-                Integer.parseInt(lbAzul.getText())
-        );
-        lista.add(colores);
-        lvColores.setItems(lista);
-    }
 }
