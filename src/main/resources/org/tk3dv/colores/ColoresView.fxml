@@ -18,7 +18,7 @@
             <Slider fx:id="sliderVerde" blockIncrement="5.0" layoutX="67.0" layoutY="189.0" majorTickUnit="5.0" max="255.0" minorTickCount="5" prefHeight="14.0" prefWidth="237.0" showTickMarks="true" />
             <Text layoutX="73.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Azul:" />
             <Slider fx:id="sliderAzul" blockIncrement="5.0" layoutX="69.0" layoutY="271.0" majorTickUnit="5.0" max="255.0" minorTickCount="5" prefHeight="14.0" prefWidth="237.0" showTickMarks="true" />
-            <Button fx:id="btnGuardar" layoutX="64.0" layoutY="317.0" mnemonicParsing="false" onAction="#addValores" text="Guardar" />
+            <Button layoutX="64.0" layoutY="317.0" mnemonicParsing="false" onAction="#addValores" text="Guardar" />
             <Button fx:id="btnEliminar" layoutX="245.0" layoutY="317.0" mnemonicParsing="false" text="Eliminar" />
             <Label fx:id="lbRojo" layoutX="100.0" layoutY="64.0" prefHeight="25.0" prefWidth="27.0" text="0" />
             <Label fx:id="lbVerde" layoutX="102.0" layoutY="149.0" prefHeight="25.0" prefWidth="27.0" text="0" />
