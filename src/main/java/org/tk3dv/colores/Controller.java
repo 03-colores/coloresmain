@@ -31,43 +31,29 @@ public class Controller implements Initializable {
     @FXML
     private ListView<Colores> lvColores;
 
-    @FXML
-    private Rectangle shape;
-
     int valor;
     ObservableList<Colores> lista = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-//        sliderRojo.valueProperty().bind(shape.fillProperty().setValue());
 
-//        shape.fillProperty().getValue();
 
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
             valor=(int)sliderRojo.getValue();
             lbRojo.setText(Integer.toString(valor));
-          //  shape.setFill(Color.rgb(valor,0,0));
 
         });
 
         sliderVerde.valueProperty().addListener((observableValue, number, t1) -> {
             valor=(int)sliderVerde.getValue();
             lbVerde.setText(Integer.toString(valor));
-           // shape.setFill(Color.rgb(0,valor,0));
         });
 
         sliderAzul.valueProperty().addListener((observableValue, number, t1) -> {
             valor=(int)sliderAzul.getValue();
             lbAzul.setText(Integer.toString(valor));
-           // shape.setFill(Color.rgb(0,0,valor));
         });
-
-
-
-
-
-
     }
 
     public void addValores(ActionEvent event) {
