@@ -48,17 +48,19 @@ public class Controller implements Initializable {
         btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());}
     @FXML
     void addValores(ActionEvent event) {
-        Colores colores = new Colores(Integer.parseInt(lbRojo.getText()),
-                                      Integer.parseInt(lbVerde.getText()),
-                                      Integer.parseInt(lbAzul.getText())
+        //obtencion de los valores de los slider para crear un colores y añadirlo a la lista y 1vColores
+        Colores colores = new Colores(
+                Integer.parseInt(lbRojo.getText()),
+                Integer.parseInt(lbVerde.getText()),
+                Integer.parseInt(lbAzul.getText())
         );
         lista.add(colores);
         lvColores.setItems(lista);
     }
+
     @FXML
     void deleteValores(ActionEvent event) {
-
-        if(lvColores.getSelectionModel().getSelectedItems() != null){
-            lista.remove(lvColores.getSelectionModel().getSelectedItems());}
+        //obtener el index de la seleccion de 1vColores para eleminarlo de la lista
+        lista.remove(lvColores.getSelectionModel().getSelectedIndex());
     }
     }
