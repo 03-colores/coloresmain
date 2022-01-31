@@ -36,17 +36,17 @@ public class Controller implements Initializable {
         rectangulo.setFill(Color.rgb(0,0,0));
 
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
-            lbRojo.setText(Integer.toString(valorRojo=(int)sliderRojo.getValue()));
+            lbRojo.setText(Integer.toString(valorRojo= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
 
         sliderVerde.valueProperty().addListener((observableValue, number, t1) -> {
-            lbVerde.setText(Integer.toString(valorVerde=(int)sliderVerde.getValue()));
+            lbVerde.setText(Integer.toString(valorVerde= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
 
         sliderAzul.valueProperty().addListener((observableValue, number, t1) -> {
-            lbAzul.setText(Integer.toString(valorAzul=(int)sliderAzul.getValue()));
+            lbAzul.setText(Integer.toString(valorAzul= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
 
