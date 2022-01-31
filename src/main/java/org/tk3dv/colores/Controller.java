@@ -13,10 +13,10 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import org.tk3dv.colores.modelo.Colores;
 import java.net.URL;
-import java.util.Iterator;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
+
     @FXML
     private Slider sliderAzul, sliderRojo, sliderVerde;
     @FXML
@@ -32,20 +32,29 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         rectangulo.setFill(Color.rgb(0,0,0));
+
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
             lbRojo.setText(Integer.toString(valorRojo= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
+
         sliderVerde.valueProperty().addListener((observableValue, number, t1) -> {
             lbVerde.setText(Integer.toString(valorVerde= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
+
         sliderAzul.valueProperty().addListener((observableValue, number, t1) -> {
             lbAzul.setText(Integer.toString(valorAzul= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
-        btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());}
+
+        btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());
+
+    }
+
+
     @FXML
     void addValores(ActionEvent event) {
         //obtencion de los valores de los slider para crear un colores y añadirlo a la lista y 1vColores
@@ -63,4 +72,7 @@ public class Controller implements Initializable {
         //obtener el index de la seleccion de 1vColores para eleminarlo de la lista
         lista.remove(lvColores.getSelectionModel().getSelectedIndex());
     }
-    }
+
+
+
+}
