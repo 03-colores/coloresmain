@@ -17,58 +17,35 @@ import java.util.Iterator;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
-
     @FXML
     private Slider sliderAzul, sliderRojo, sliderVerde;
-
     @FXML
     private Label lbRojo, lbVerde, lbAzul;
-
     @FXML
     private ListView<Colores> lvColores;
-
     @FXML
     private Rectangle rectangulo;
-
     @FXML
     private Button btnEliminar;
-
     int valorRojo,valorAzul,valorVerde;
     ObservableList<Colores>lista = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
         rectangulo.setFill(Color.rgb(0,0,0));
-
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
-
-            lbRojo.setText(Integer.toString(valorRojo=(int)sliderRojo.getValue()));
+            lbRojo.setText(Integer.toString(valorRojo= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
-
-
         });
-
         sliderVerde.valueProperty().addListener((observableValue, number, t1) -> {
-
-            lbVerde.setText(Integer.toString(valorVerde=(int)sliderVerde.getValue()));
+            lbVerde.setText(Integer.toString(valorVerde= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
-
-
         });
-
         sliderAzul.valueProperty().addListener((observableValue, number, t1) -> {
-            lbAzul.setText(Integer.toString(valorAzul=(int)sliderAzul.getValue()));
+            lbAzul.setText(Integer.toString(valorAzul= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
-
-
         });
-
-        btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());
-
-    }
-
-
+        btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());}
     @FXML
     void addValores(ActionEvent event) {
         Colores colores = new Colores(Integer.parseInt(lbRojo.getText()),
@@ -76,22 +53,12 @@ public class Controller implements Initializable {
                                       Integer.parseInt(lbAzul.getText())
         );
         lista.add(colores);
-//        Iterator it = lista.iterator();
-//        it.hasNext();it.next()
         lvColores.setItems(lista);
-
-
     }
-
     @FXML
     void deleteValores(ActionEvent event) {
 
         if(lvColores.getSelectionModel().getSelectedItems() != null){
-            lista.remove(lvColores.getSelectionModel().getSelectedItems());
-        }
-
+            lista.remove(lvColores.getSelectionModel().getSelectedItems());}
     }
-
-
-
     }
