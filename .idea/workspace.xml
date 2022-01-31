@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="" />
+    <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +71,7 @@
       <workItem from="1640027714500" duration="1437000" />
       <workItem from="1640037023658" duration="142000" />
       <workItem from="1642270979328" duration="189000" />
+      <workItem from="1643656082338" duration="125000" />
     </task>
     <servers />
   </component>
