@@ -18,6 +18,7 @@ public class Application extends javafx.application.Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("ColoresView.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 620, 440);
         stage.setTitle("Colores");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
