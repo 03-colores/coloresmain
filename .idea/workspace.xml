@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="" />
+    <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Imp_listView-Colores/03-colores" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/Trabajo evaluar compañeros/Narciso/multi-languaje-ui-master" />
   </component>
   <component name="RunManager">
     <configuration name="JavaFX-Colores" type="Application" factoryName="Application">
@@ -70,6 +75,9 @@
       <workItem from="1640037023658" duration="142000" />
       <workItem from="1642270979328" duration="189000" />
       <workItem from="1643656082338" duration="295000" />
+      <workItem from="1643657346352" duration="1294000" />
+      <workItem from="1643725136019" duration="3000" />
+      <workItem from="1643999454098" duration="317000" />
     </task>
     <servers />
   </component>

@@ -27,13 +27,14 @@ public class Controller implements Initializable {
     private Rectangle rectangulo;
     @FXML
     private Button btnEliminar;
-    int valorRojo,valorAzul,valorVerde;
+    private int valorRojo,valorAzul,valorVerde;
     ObservableList<Colores>lista = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         rectangulo.setFill(Color.rgb(0,0,0));
+        lvColores.setItems(lista);
 
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
             lbRojo.setText(Integer.toString(valorRojo= t1.intValue()));
@@ -64,7 +65,6 @@ public class Controller implements Initializable {
                 Integer.parseInt(lbAzul.getText())
         );
         lista.add(colores);
-        lvColores.setItems(lista);
     }
 
     @FXML
@@ -72,7 +72,4 @@ public class Controller implements Initializable {
             //obtener el index de la seleccion de 1vColores para eleminarlo de la lista
             lista.remove(lvColores.getSelectionModel().getSelectedIndex());
          }
-
-
-
     }
