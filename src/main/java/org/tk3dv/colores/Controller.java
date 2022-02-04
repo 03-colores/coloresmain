@@ -35,6 +35,9 @@ public class Controller implements Initializable {
 
         rectangulo.setFill(Color.rgb(0,0,0));
         lvColores.setItems(lista);
+        /*
+        * Se añade un Listener a cada uno de los slider, que cambia el texto
+        * de la etiqueta correspondiente */
 
         sliderRojo.valueProperty().addListener((observableValue, number, t1) -> {
             lbRojo.setText(Integer.toString(valorRojo= t1.intValue()));
@@ -50,7 +53,9 @@ public class Controller implements Initializable {
             lbAzul.setText(Integer.toString(valorAzul= t1.intValue()));
             rectangulo.setFill(Color.rgb(valorRojo, valorVerde, valorAzul));
         });
-
+        /*Enlaza la propiedad desactivar del boton 'Eliminar' con la propiedad de los
+        * item del ListView que comprueba que esta seleccionado para mantener el botón
+        * desactivado mientras no se seleccione un item del ListView */
         btnEliminar.disableProperty().bind(lvColores.getSelectionModel().selectedItemProperty().isNull());
 
     }
