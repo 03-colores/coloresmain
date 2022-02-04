@@ -4,6 +4,8 @@ import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
 public class Colores {
+    /*Declaro las variable del tipo IntegerProperty que contendra cada uno de los
+    * valores que en conjunto formaran cada item del ListView*/
     private final IntegerProperty numR = new SimpleIntegerProperty( this, "numR",0);
     private final IntegerProperty numV = new SimpleIntegerProperty( this, "numV",0);
     private final IntegerProperty numA = new SimpleIntegerProperty( this, "numA",0);
