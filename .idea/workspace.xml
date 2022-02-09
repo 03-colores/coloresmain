@@ -7,8 +7,6 @@
     <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,9 @@
       <workItem from="1643657346352" duration="1294000" />
       <workItem from="1643725136019" duration="3000" />
       <workItem from="1643999454098" duration="3439000" />
-      <workItem from="1644055905517" duration="5860000" />
+      <workItem from="1644055905517" duration="6516000" />
+      <workItem from="1644063845392" duration="5000" />
+      <workItem from="1644397035625" duration="30000" />
     </task>
     <servers />
   </component>

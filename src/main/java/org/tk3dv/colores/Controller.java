@@ -5,6 +5,8 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.chart.PieChart;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
@@ -43,6 +45,7 @@ public class Controller implements Initializable {
                         setGraphic(null);
                         Colores colores = ((Colores)item);
                         if(colores!=null){
+
                             setText(colores.toString());
                             setGraphic(colores.getRectangle());
                         }
