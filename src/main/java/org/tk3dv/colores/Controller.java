@@ -5,12 +5,13 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.Slider;
+import javafx.scene.chart.PieChart;
+import javafx.scene.chart.XYChart;
+import javafx.scene.control.*;
+import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.util.Callback;
 import org.tk3dv.colores.modelo.Colores;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -32,6 +33,27 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
+        lvColores.setCellFactory(new Callback<ListView<Colores>, ListCell<Colores>>() {
+            @Override
+            public ListCell<Colores> call(ListView<Colores> param) {
+                ListCell<Colores> mixto = new ListCell(){
+                    @Override
+                    protected void updateItem(Object item, boolean empty) {
+                        super.updateItem(item, empty);
+                        setText(null);
+                        setGraphic(null);
+                        Colores colores = ((Colores)item);
+                        if(colores!=null){
+
+                            setText(colores.toString());
+                            setGraphic(colores.getRectangle());
+                        }
+                    }
+                };
+                return mixto;
+            }
+        });
 
         rectangulo.setFill(Color.rgb(0,0,0));
         lvColores.setItems(lista);
@@ -63,8 +85,13 @@ public class Controller implements Initializable {
 
     @FXML
     void addValores(ActionEvent event) {
-        //obtencion de los valores de los slider para crear un colores y añadirlo a la lista y 1vColores
+        //obtencion de los valores de los slider para crear un colores y añadirlo a la lista y lvColores
         Colores colores = new Colores(
+                new Rectangle(30.00,10.00,
+                        Color.rgb(Integer.parseInt(lbRojo.getText()),
+                                  Integer.parseInt(lbVerde.getText()),
+                                  Integer.parseInt(lbAzul.getText()))
+                ),
                 Integer.parseInt(lbRojo.getText()),
                 Integer.parseInt(lbVerde.getText()),
                 Integer.parseInt(lbAzul.getText())
