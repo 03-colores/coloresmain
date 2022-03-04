@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9443613b-8f50-493e-875d-1c52eec87c46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tk3dv/colores/modelo/Colores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/ColoresView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/modelo/Colores.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tk3dv/colores/modelo/Colores.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +44,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="JavaFX-Colores" type="Application" factoryName="Application">
@@ -79,6 +91,14 @@
       <workItem from="1644055905517" duration="6516000" />
       <workItem from="1644063845392" duration="5000" />
       <workItem from="1644397035625" duration="30000" />
+      <workItem from="1645948278954" duration="9896000" />
+      <workItem from="1645960797518" duration="1914000" />
+      <workItem from="1645965193822" duration="784000" />
+      <workItem from="1645965989745" duration="428000" />
+      <workItem from="1645973753426" duration="3000" />
+      <workItem from="1646054664894" duration="50000" />
+      <workItem from="1646061512378" duration="191000" />
+      <workItem from="1646061874559" duration="45000" />
     </task>
     <servers />
   </component>
